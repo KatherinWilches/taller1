@@ -1,0 +1,52 @@
+body .galeria{
+    width: 100%;
+    height: 430%;  
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+body .imagen{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba (0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.25s;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+body .imagen:hover{
+   box-shadow: 0 2px 2px rgba (0, 0, 0, 0.2); 
+   transform: translateX(-50px)
+}
+
+body .imagen img{
+    width: 330px;
+    height: 220px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 300; 
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+body .imagen p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(248, 248, 248);
+}
